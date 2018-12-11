@@ -1,0 +1,15 @@
+
+build/
+dist/
+_build/
+_generate/
+.cache*
+.tox*
+.eggs*
+ChangeLog
+*.so
+*.py[cod]
+*.egg-info
+.coverage
+.pypirc
+jupyter/.ipynb*
