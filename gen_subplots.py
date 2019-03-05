@@ -7,8 +7,6 @@ from saxpy.znorm import znorm
 # Prepare the time-series data for plotting
 series = np.genfromtxt('open_prices', delimiter='\n', missing_values='null', filling_values=0)
 all_series = np.asfarray(np.split(series, 57), float)
-# for i in all_series:
-# 	print(znorm(i))
 
 P=15
 w = 4 
