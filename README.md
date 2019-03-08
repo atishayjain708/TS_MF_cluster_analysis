@@ -1,7 +1,17 @@
 # Mutual Funds Time Series Analysis and Clustering
 
 
-### Instructions 
+## Requirements
+
+1. A running Python installation. Python 3.x preferred, should work on Python 2.x as well.
+2. saxpy by Paul Senin installed. Install it using pip:
+	Python 3.x
+	>pip3 install saxpy
+	For Python 2.x
+	>pip install saxpy
+3. numpy, pandas, csv python libraries. If not already installed, can be done using pip3 (or pip).
+
+## Instructions 
 1. Run `sax_open_prices.py` to get a file `sax_words_ri_norot_w=$_a=#.txt`
 2. Execute `show_CM.py` to obtain a file `CM_w=$_a=#_lsh_limit=@.txt`.
 3. Execute Hcluster_my_idea.py to obtain the clusters in `./CLusters/nested_clusters_15_average_w=$_a=#_lsh_limit=@.txt`. A dendrogram will also be obtained.
@@ -18,10 +28,18 @@ To view trends for specific stock tickers (by viewing their time-series) use the
 
 ## Results and Example Plots
 
-![Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D3.png)_Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom_
-![Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D3.png)_Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom_
-![Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D6.png)_Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom_
-![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)_Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom_
+_Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom:_
+![Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D3.png)
+
+_Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom:_
+![Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D3.png)
+
+_Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom:_
+![Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D6.png)
+
+_Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom:_
+![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)
+
 
 <!-- | w | a | lsh_limit | Resulting plot
 | ------------------------- | ------------------------- | ------------------------- |
@@ -30,4 +48,11 @@ To view trends for specific stock tickers (by viewing their time-series) use the
  -->
 **NOTE: The various parameters (w,k,lsh_limit) can be varied by changing the respective values in the code files. $,# and @ have been used as placeholder in this guide for w,k and lsh_limit respectively.**
 
-diff_znorm_comparison_nested_15_average_w_8_a_20_lsh_limit_6.png
+
+## Credits and References
+
+1. Li Wei, Eamonn Keogh and Xiaopeng Xi (2006) SAXually Explict Images: Finding Unusual Shapes. ICDM 2006.
+2. UCR Data-Archive.
+Note: The data used to run the scripts can be obtained from the [UCR Data Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/UCR_TS_Archive_2015.zip).
+Alternatively, you can download a few data files (to test and run the scripts) from this [link](https://drive.google.com/open?id=1Y9KprdCn3563Q20xR-3kMpS2_GrP7Bl5).
+3. The [saxpy](https://pypi.org/project/saxpy/) library by Paul Senin.
