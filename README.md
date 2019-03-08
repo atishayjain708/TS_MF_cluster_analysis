@@ -40,12 +40,6 @@ _Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, 
 _Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom:_
 ![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)
 
-
-<!-- | w | a | lsh_limit | Resulting plot
-| ------------------------- | ------------------------- | ------------------------- |
-| ArrowHead_TRAIN | ![](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D3.png) |
-| Butterfly_A | ![](https://github.com/atishayjain708/shape-discord-identification/blob/results/Plots/Butterfly_A_all.png) | ![](https://github.com/atishayjain708/shape-discord-identification/blob/results/Plots/Butterfly_A_31.png) |
- -->
 **NOTE: The various parameters (w,k,lsh_limit) can be varied by changing the respective values in the code files. $,# and @ have been used as placeholder in this guide for w,k and lsh_limit respectively.**
 
 
