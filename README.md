@@ -8,7 +8,7 @@
 2. saxpy by Paul Senin installed. Install it using pip:
 	Python 3.x
 	>pip3 install saxpy
-	For Python 2.x
+For Python 2.x
 	>pip install saxpy
 3. numpy, pandas, csv python libraries. If not already installed, can be done using pip3 (or pip).
 
@@ -21,6 +21,9 @@ Before running the scripts, you need to make sure the data files are in the `/DA
 3. Execute Hcluster_my_idea.py to obtain the clusters in `./CLusters/nested_clusters_15_average_w=$_a=#_lsh_limit=@.txt`. A dendrogram will also be obtained and saved in `/Plots` directory.
 4. From `nested_clusters_15_average_w=$_a=#_lsh_limit=@.txt` obtain the indices to plot and create a new file in the working directory named as `to_plot_15_average_w=$_a=#_lsh_limit=@`. These indices will be obtained by copying the contents of the cluster file into the excel sheet (column A) and then copying the resukts in column B.
 5. Finally generate a comparison plot by running gen_subplots.py.
+
+**NOTE: The various parameters (w,k,lsh_limit) can be varied by changing the respective values in the code files. $,# and @ have been used as placeholder in this guide for w,k and lsh_limit respectively.**
+
 
 ## Plotting and getting analysis
 
@@ -43,8 +46,6 @@ _Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, 
 
 _Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom:_
 ![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)
-
-**NOTE: The various parameters (w,k,lsh_limit) can be varied by changing the respective values in the code files. $,# and @ have been used as placeholder in this guide for w,k and lsh_limit respectively.**
 
 
 ## Credits and References
