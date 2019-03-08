@@ -41,7 +41,7 @@ with open(sys.argv[1], 'r') as h:
 # 	sax_words_ri.append(perms)
 # 	i+=1
 
-#Write all SAX words to file only once instead of generating again and again
+# Write all SAX words to file only once instead of generating again and again
 with open('sax_words_ri_norot_w='+str(w)+'_a='+str(a), 'w+') as sax_words_file:
 		for l in sax_words: 
 			sax_words_file.write(l+'\n')
