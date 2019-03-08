@@ -18,10 +18,10 @@ To view trends for specific stock tickers (by viewing their time-series) use the
 
 ## Results and Example Plots
 
-![Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D3.png)Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom
-![Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D3.png)Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom
-![Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D6.png)Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom
-![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom
+![Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D3.png)_Clusters obtained with `w=8` and `k=3` named as a,b,c,...m from left to right, top to bottom_
+![Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D3.png)_Clusters obtained with `w=4` and `k=3` named as a,b,c,...m from left to right, top to bottom_
+![Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D4_a%3D20_lsh_limit%3D6.png)_Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, top to bottom_
+![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)_Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom_
 
 <!-- | w | a | lsh_limit | Resulting plot
 | ------------------------- | ------------------------- | ------------------------- |
