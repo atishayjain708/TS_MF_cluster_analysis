@@ -47,6 +47,7 @@ _Clusters obtained with `w=4` and `k=6` named as a,b,c,...m from left to right, 
 _Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom:_
 ![Clusters obtained with `w=8` and `k=6` named as a,b,c,...m from left to right, top to bottom](https://github.com/atishayjain708/TS_MF_cluster_analysis/blob/results/Plots/diff_znorm_comparison_nested_15_average_w%3D8_a%3D20_lsh_limit%3D6.png)
 
+These clusters, on caomparing with the ones used by the Mutual Fund houses whose lists were taken here, offer around 30 percent better diversity.
 
 ## Credits and References
 
